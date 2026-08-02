@@ -6,7 +6,11 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "alembic>=1.18.5",
+    "nicegui>=3.15.0",
+    "openfoodfacts>=5.3.0",
+    "pandas>=3.0.5",
     "psycopg2-binary>=2.9.12",
     "python-dotenv>=1.2.2",
+    "pywebview>=6.2.1",
     "sqlalchemy>=2.0.51",
 ]

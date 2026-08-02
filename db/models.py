@@ -13,12 +13,12 @@ class FoodItem(Base):
     serving_unit = Column(String)
     calories = Column(Numeric)    
     serving_size = Column(Numeric , nullable=True)
-    protein_g = Column(Numeric, nullable=True)
-    carbs_g = Column(Numeric , nullable=True)
-    fat_g = Column(Numeric , nullable=True)
-    fiber_g = Column(Numeric , nullable=True)
-    sugar_g = Column(Numeric , nullable=True)
-    sodium_mg = Column(Numeric , nullable=True)
+    protein_per_serving = Column(Numeric, nullable=True)
+    carbs_per_serving = Column(Numeric , nullable=True)
+    fat_per_serving = Column(Numeric , nullable=True)
+    fiber_per_serving = Column(Numeric , nullable=True)
+    sugar_per_serving = Column(Numeric , nullable=True)
+    sodium_per_serving = Column(Numeric , nullable=True)
     
     
 class Ingredients(Base):

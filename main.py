@@ -1,6 +1,14 @@
+
+from nicegui import ui
+from app.views.add_ingredient import app
+
+
+
+
 def main():
-    print("Hello from meal-planner-tool!")
+    
+    app()
+    ui.run(native=True, window_size=(1000, 700), fullscreen=False)
 
 
-if __name__ == "__main__":
-    main()
+main()
